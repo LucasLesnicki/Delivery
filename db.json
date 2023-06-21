@@ -1,0 +1,276 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "lucaslesnicki@gmail.com",
+      "password": "1234",
+      "cart": [],
+      "historico": []
+    },
+    {
+      "email": "saraivaromuloa@gmail.com",
+      "password": "123",
+      "cart": [
+        {
+          "id": 2,
+          "name": "Pepsi",
+          "preco": 1.98,
+          "peso": "2L",
+          "image": "@/assets/Bebidas/Pepsi.png",
+          "quantity": 1
+        }
+      ],
+      "historico": [
+        {
+          "id": 1,
+          "itens": [
+            {
+              "id": 1,
+              "name": "Coca-cola",
+              "preco": 2,
+              "peso": "2L",
+              "image": "@/assets/Bebidas/Coca-cola.png",
+              "quantity": 1,
+              "pesoNumeros": 2,
+              "pesoLetras": "L",
+              "pesoTotal": 2
+            },
+            {
+              "id": 2,
+              "name": "Pepsi",
+              "preco": 1.98,
+              "peso": "2L",
+              "image": "@/assets/Bebidas/Pepsi.png",
+              "quantity": 1,
+              "pesoNumeros": 2,
+              "pesoLetras": "L",
+              "pesoTotal": 2
+            },
+            {
+              "id": 3,
+              "name": "Suco de Laranja",
+              "preco": 5,
+              "peso": "1L",
+              "image": "@/assets/Bebidas/Suco-de-Laranja.png",
+              "quantity": 1,
+              "pesoNumeros": 1,
+              "pesoLetras": "L",
+              "pesoTotal": 1
+            },
+            {
+              "id": 4,
+              "name": "Suco de Uva",
+              "preco": 5.5,
+              "peso": "2L",
+              "image": "@/assets/Bebidas/Suco-de-Uva.png",
+              "quantity": 1,
+              "pesoNumeros": 2,
+              "pesoLetras": "L",
+              "pesoTotal": 2
+            }
+          ],
+          "total": "14.48"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "email": "saraivaromuloa@gmail.com",
+      "password": "123",
+      "cart": [],
+      "historico": [],
+      "id": 3
+    },
+    {
+      "email": "saraivaromuloa@gmail.com",
+      "password": "123",
+      "cart": [],
+      "historico": [],
+      "id": 4
+    }
+  ],
+  "Alimentos": [
+    {
+      "Bebidas": [
+        {
+          "id": 1,
+          "name": "Coca-cola",
+          "preco": 2,
+          "peso": "2L",
+          "image": "@/assets/Bebidas/Coca-cola.png"
+        },
+        {
+          "id": 2,
+          "name": "Pepsi",
+          "preco": 1.98,
+          "peso": "2L",
+          "image": "@/assets/Bebidas/Pepsi.png"
+        },
+        {
+          "id": 3,
+          "name": "Suco de Laranja",
+          "preco": 5,
+          "peso": "1L",
+          "image": "@/assets/Bebidas/Suco-de-Laranja.png"
+        },
+        {
+          "id": 4,
+          "name": "Suco de Uva",
+          "preco": 5.5,
+          "peso": "2L",
+          "image": "@/assets/Bebidas/Suco-de-Uva.png"
+        }
+      ],
+      "Verduras": [
+        {
+          "id": 5,
+          "name": "Alface",
+          "preco": 8.99,
+          "peso": "300g",
+          "image": "@/assets/Verduras/Alface.png"
+        },
+        {
+          "id": 6,
+          "name": "Cenoura",
+          "preco": 7.99,
+          "peso": "150g",
+          "image": "@/assets/Verduras/Cenoura.png"
+        },
+        {
+          "id": 7,
+          "name": "Repolho",
+          "preco": 13.99,
+          "peso": "300g",
+          "image": "@/assets/Verduras/Repolho.png"
+        },
+        {
+          "id": 8,
+          "name": "Rucula",
+          "preco": 6.85,
+          "peso": "80g",
+          "image": "@/assets/Verduras/Rucula.png"
+        }
+      ],
+      "Laticinios": [
+        {
+          "id": 9,
+          "name": "Leite",
+          "preco": 4.5,
+          "peso": "1L",
+          "image": "@/assets/Laticinios/Leite.png"
+        },
+        {
+          "id": 10,
+          "name": "Achocolatado",
+          "preco": 15,
+          "peso": "150g",
+          "image": "@/assets/Laticinios/Achocolatado.png"
+        },
+        {
+          "id": 11,
+          "name": "Iogurte",
+          "preco": 5,
+          "peso": "1L",
+          "image": "@/assets/Laticinios/Iogurte.png"
+        },
+        {
+          "id": 12,
+          "name": "Yakult",
+          "preco": 1.99,
+          "peso": "150ml",
+          "image": "@/assets/Laticinios/Yakult.png"
+        }
+      ],
+      "Legumes": [
+        {
+          "id": 13,
+          "name": "Abobrinha",
+          "preco": 4.99,
+          "peso": "70g",
+          "image": "@/assets/Legumes/Abobrinha.png"
+        },
+        {
+          "id": 14,
+          "name": "Batata",
+          "preco": 5.99,
+          "peso": "100g",
+          "image": "@/assets/Legumes/Batata.png"
+        },
+        {
+          "id": 15,
+          "name": "Beterraba",
+          "preco": 13.99,
+          "peso": "150g",
+          "image": "@/assets/Legumes/Beterraba.png"
+        },
+        {
+          "id": 16,
+          "name": "Pepino",
+          "preco": 8.7,
+          "peso": "60g",
+          "image": "@/assets/Legumes/Pepino.png"
+        }
+      ],
+      "Vegetais": [
+        {
+          "id": 17,
+          "name": "Abóbora",
+          "preco": 6.99,
+          "peso": "600g",
+          "image": "@/assets/Vegetais/Abobora.png"
+        },
+        {
+          "id": 18,
+          "name": "Beringela",
+          "preco": 2.25,
+          "peso": "200g",
+          "image": "@/assets/Vegetais/Beringela.png"
+        },
+        {
+          "id": 19,
+          "name": "Brócolis",
+          "preco": 11.99,
+          "peso": "100g",
+          "image": "@/assets/Vegetais/Brocolis.png"
+        },
+        {
+          "id": 20,
+          "name": "Milho",
+          "preco": 14.99,
+          "peso": "170g",
+          "image": "@/assets/Vegetais/Milho.png"
+        }
+      ],
+      "Carnes": [
+        {
+          "id": 21,
+          "name": "Gado",
+          "preco": 63.99,
+          "peso": "400g",
+          "image": "@/assets/Carnes/Gado.png"
+        },
+        {
+          "id": 22,
+          "name": "Frango",
+          "preco": 23.99,
+          "peso": "400g",
+          "image": "@/assets/Carnes/Frango.png"
+        },
+        {
+          "id": 23,
+          "name": "Peixe",
+          "preco": 45.99,
+          "peso": "300g",
+          "image": "@/assets/Carnes/Peixe.png"
+        },
+        {
+          "id": 24,
+          "name": "Porco",
+          "preco": 18.9,
+          "peso": "400g",
+          "image": "@/assets/Carnes/Porco.png"
+        }
+      ]
+    }
+  ]
+}
