@@ -1,13 +1,3 @@
-# projeto
-## Como funciona o armazenamento:
-Locadora online com o Localstorage e Vue
-
-
-## Project setup
-```
-npm install
-```
-
 ### Abra 2 terminais e rode 1 comando para cada um
 ```
 Comando para o Json-Server
@@ -25,4 +15,3 @@ npm run build
 ```
 npm run lint
 ```
-# Delivery
